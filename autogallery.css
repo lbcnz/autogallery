@@ -1,0 +1,121 @@
+body {
+    background-color: #262833;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans;
+    color:white;
+    margin: 10px;
+}
+
+h4 {
+    text-align: center;
+    font-family: sans;
+    color:gray;
+    margin: 10px;
+    margin-bottom: 18px;
+}
+
+#lightgallery {
+    text-align: center;
+}
+
+.nsfw {
+    display: none;
+}
+
+.card-img {
+    max-height: 30vh;
+    margin: 1px;
+}
+
+.button-wrap {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.button-wrap2 {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+
+#button-sfw-wrap {
+    display: inline;
+}
+
+#button-nsfw-wrap {
+    display: none;
+}
+
+#button-sfw {
+    font-size: 1rem;
+    font-family: Sans;
+    font-weight: 800;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background-color:#77d42a;
+    border-radius:3px;
+    border:1px solid #268a16;
+    display:inline-block;
+    cursor:pointer;
+    color:#214206;
+    padding:4px 2px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #aade7c;
+ }
+
+ #button-sfw:active {
+    background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+    background-color:#5cb811;
+    position:relative;
+    top:1px;
+}
+
+#button-nsfw {
+    font-size: 1rem;
+    font-family: Sans;
+    font-weight: 800;
+    box-shadow:inset 0px 1px 0px 0px #EFABAD;
+    background-color:#D42A35;
+    border-radius:3px;
+    border:1px solid #8A161A;
+    display:inline-block;
+    cursor:pointer;
+    color:#420607;
+    padding:4px 2px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #DE7C7E;
+ }
+
+#button-nsfw:active {
+    background:linear-gradient(to bottom, #B81117 5%, #D42A2C 100%);
+    background-color:#B81117;
+    position:relative;
+    top:1px;
+}
+
+#button-shuffle {
+    font-size: 1rem;
+    font-family: Sans;
+    font-weight: 800;
+    box-shadow:inset 0px 1px 0px 0px #ABBEEF;
+    background-color:#2A6AD4;
+    border-radius:3px;
+    border:1px solid #16488A;
+    display:inline-block;
+    cursor:pointer;
+    color:#061D42;
+    padding:4px 2px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #7C9FDE;
+ }
+
+ #button-shuffle:active {
+    background:linear-gradient(to bottom, #114BB8 5%, #2A5FD4 100%);
+    background-color: #1155B8;
+    position:relative;
+    top:1px;
+}
