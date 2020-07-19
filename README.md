@@ -1,4 +1,4 @@
-**AutoGallery** is a Pinterest-esque static photo gallery that is automagically generated from a shell script and viewed in any browser.
+**AutoGallery** is a Pinterest-esque self-contained and static photo gallery that is automagically generated from a shell script and viewed in any browser.
 
 # Development
 I intend to rewrite it in Python as a fully featured static web photo gallery.
@@ -10,6 +10,15 @@ I intend to rewrite it in Python as a fully featured static web photo gallery.
 - Authentication
 - PWA
 
-TODO: Make script and git hook to update lightagallery library.
-TODO: Upload to GitLab.
+**Minor**
+- Browsing with keyboard arrows
+- Outline when hovering cards
+
+TODO: Rewrite AutoGallery in Python. +later
+
+TODO: Optimize images for Web. +later
+
+TODO: Publish on GitLab. +done
+
+TODO: Setup script with hook to autofetch library files from lightgallery.js git repo. +done
 

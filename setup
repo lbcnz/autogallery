@@ -1,0 +1,11 @@
+#!/bin/bash
+# Install AutoGallery
+bin="$HOME/.local/bin"
+lib="$HOME/.local/lib/autogallery"
+
+# Update lightgallery.js files
+git -C "./lightgallery.js" pull
+cp -R lightgallery.js/dist/* lib/
+cp autogallery "$bin/"
+mkdir -p "$lib" && cp -R lib/* "$lib/"
+
