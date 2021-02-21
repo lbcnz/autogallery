@@ -4,21 +4,3 @@ I'm using [sachinchoolur/lightgallery.js](https://github.com/sachinchoolur/light
 
 ![Screenshot](screenshot.jpg)
 
-# Development
-I intend to rewrite it in Python as a fully featured static web photo gallery.
-
-**Features**
-- Metadata in YAML file
-- Timeline scrolling
-- Tag searching
-- Authentication
-- PWA
-
-**Minor**
-- Browsing with keyboard arrows
-- Outline when hovering cards
-
-TODO: Rewrite AutoGallery in Python. +later
-
-TODO: Optimize images for Web. +later
-
